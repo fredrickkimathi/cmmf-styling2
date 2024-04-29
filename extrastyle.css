@@ -1,0 +1,722 @@
+
+@media screen and (max-width: 1183px) {
+  #careers-part {
+    flex-direction: column;
+   
+  }
+  #waylf-section {
+    order: 2;
+  }
+  #logo-part{
+    display: none;
+  }
+  #search-input{
+    order: 3;
+    width: 5px;
+    margin: 10px;
+  }
+  #middle-content{
+    flex-direction: column;
+    text-align: center;
+    position: fixed;
+    margin-top: 100px;
+    padding-right: 30%;
+  }
+  .cmmf-part{
+    text-align: center;
+    padding-right: 20%;  
+  }
+  .middle-section{
+    flex-direction: column;
+  }
+  .include-cmmf{
+    order: 2;
+    position: fixed;
+  }
+  .cy-why-section{
+    order: 3;
+  }
+  #third-sect{
+    padding-top: 300px;
+    
+  }
+  #amplify-text{
+    text-align: center;
+    line-height: 3px;
+    text-decoration: underline;
+  }
+  #look-to-deliver{
+    font-size: 15px;
+    text-align: center;
+  }
+
+  #cmmf-img{
+    display: none;
+  }
+
+  .cy-why{
+    display: none;
+  }
+  #middle-content{
+    box-shadow: none;
+    padding-top: 4%;
+  }
+  #offer-part1:focus{
+    background-color: rgb(245, 138, 30);
+    color: white;
+    border-radius: 12px;
+  }
+  #offer-part2:focus{
+    background-color: rgb(245, 138, 30);
+    color: white;
+    border-radius: 12px;
+  }
+  #offer-part4:focus{
+    background-color: rgb(245, 138, 30);
+    color: white;
+    border-radius: 12px;
+  }
+  #main-investment-cont{
+    flex-direction: column;
+  }
+  .ksh-part{
+    order: 2;
+    padding-top: 20px;
+  }
+  #button-sections{
+    flex-direction: column;
+  }
+  #usd-btn{
+    order: 2;
+    margin-top: 20px;
+  }
+  #sub-section{
+    flex-direction: column;
+    align-items: center;
+  }
+  #sub-btn{
+    order: 2;
+    
+  }
+  #em-in{
+   display: none;
+  }
+  #started-icons{
+    flex-direction: column;
+    text-align: center;
+  }
+  #main-footer{
+    flex-direction: column;
+  }
+  .latest-events{
+    display: none;
+  }
+  .wwu-section{
+    display: none;
+  }
+  #ttu-header{
+    text-align: center;
+  }
+  .header-ke{
+    text-align: center;
+  }
+  #main2-footer{
+    flex-direction: column;
+  }
+  #mail-part2{
+    order: 2;
+  }
+  #mail-part2{
+    flex-direction: column;
+  }
+  #arrow-icon{
+    display: none;
+  }
+  #privacy{
+    display: none;
+  }
+  
+}
+
+@font-face{
+  font-family: roboto;
+  src: url(fonts/Roboto-Black.ttf);
+}
+
+
+
+#careers-part{
+  gap: 10px;
+  background-color: black;
+  color: white;
+  font-size: 11px;
+  padding-left: 55%;
+  font-weight: bold;
+}
+.top-text{
+  padding-top: 10px;
+  
+}
+
+#waylf-section{
+  background-color: rgb(114, 138, 72);
+  padding-top: 0%;
+}
+#looking-for{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: lighter;
+}
+#icon{
+  padding-top: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(172, 197, 128);
+  padding-right: 10px;
+}
+.logo{
+  width: 270px;
+  padding-top: 20px;
+  padding-left: 100px;
+}
+#icon:hover{
+  color: black;
+  
+}
+#search{
+  display: none;
+}
+#logo-part{
+  gap: 300px;
+}
+#logo-txt{
+  gap: 50px;
+  font-size: 18px;
+}
+#top-txt{
+  padding-top: 30px;
+}
+#down-icon{
+  font-size: 10px;
+}
+.client-btn{
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 25px;
+  margin-top: 25px;
+  width: 150px;
+}
+#lock-icon{
+  padding-left: 10px;
+  font-size: 16px;
+}
+.cmmf-part{
+  background-image: url(images/stylingbg.png);
+  background-repeat: no-repeat;  /* Optional: Controls how the image repeats */
+  background-position: center;  /* Optional: Controls image position */
+  background-size: cover; 
+  margin-top: 10px;
+  
+  
+}
+.cmmf-part > *{
+  filter: brightness(90%);
+  position: relative;
+}
+.cmmf-text{
+  padding-top: 180px;
+  padding-left: 90px;
+}
+#take-charge{
+  font-size: 30px;
+  color: rgb(250, 127, 3);
+  filter: brightness(100%);
+}
+#cy-text{
+  color: white;
+  font-size: 48px;
+  font-weight: bolder;
+  font-family: roboto;
+  line-height: 50px;
+}
+.investing-btn{
+  color: white;
+  border: 1px solid white;
+  padding: 15px;
+  border-radius: 25px;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  font-weight: bold;
+}
+#middle-content{
+  background-color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  gap: 3%;
+  position: absolute;
+  box-shadow:3px 3px 3px 3px gray;
+  border-radius: 5px;
+  height: 18%;
+  
+}
+#middle-content div {
+  flex: 1;  /* Make divs flexible and share available space equally */
+}
+#why-cytonn{
+  width: 5%;
+}
+
+.include-cmmf{
+  position: relative;
+  height: 480px;
+}
+.cy-why{
+  font-size: 20px;
+  font-family: roboto;
+  color: rgb(66, 110, 90);
+  padding-top: 40px;
+}
+#offer-part1{
+  text-align: center;
+  padding-top: 20px;
+}
+#offer-part2{
+  text-align: center;
+  padding-top: 20px;
+}
+#offer-part2:hover{
+  margin-top: -10px;
+  margin-bottom: -10px;
+  background-color: rgb(245, 138, 30);
+  color: white;
+  border-radius: 12px;
+}
+#offer-part1:hover{
+  margin-top: -10px;
+  margin-bottom: -10px;
+  background-color: rgb(245, 138, 30);
+  color: white;
+  border-radius: 12px;
+}
+#offer-part3{
+  text-align: center;
+  padding-top: 20px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  background-color: rgb(245, 138, 30);
+  color: white;
+  border-radius: 12px;
+  
+}
+#offer-part3:hover {
+  margin-top: -10px;
+  margin-bottom: -10px;
+  background-color: rgb(245, 138, 30);
+  color: white;
+  border-radius: 12px;
+}
+#guess-btn{
+  width: inherit;
+  
+}
+#offer-part2:focus{
+  margin-top: -10px;
+  margin-bottom: -10px;
+  background-color: rgb(245, 138, 30);
+  color: white;
+  border-radius: 12px;
+}
+#guess-btn:focus{
+  margin-top: -30px;
+  margin-bottom: -30px;
+  background-color: rgb(245, 138, 30);
+  color: white;
+  border-radius: 12px;  
+}
+
+#arm-text{
+  margin-left: 90px;
+  padding-top: 20px;
+  
+}
+#offer-part4{
+  text-align: center;
+  padding-top: 20px;
+}
+#offer-part4:hover{
+  margin-top: -10px;
+  margin-bottom: -10px;
+  background-color: rgb(245, 138, 30);
+  color: white;
+  border-radius: 12px;
+}
+.pipe{
+  padding-top: 6%;
+  font-size: 30px;
+  color: gray;
+}
+.third-section{
+  margin-top: 250px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+#amplify-text{
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 6%;
+}
+#third-sect{
+  gap: 18%;
+}
+#cmmf-img{
+  width: 90%;
+  box-shadow: 2px 2px 2px 2px gray;
+  border-radius: 10px;
+  background-image: url(images/Screen\ Shot\ 2024-04-28\ at\ 12.01.48\ PM.png);
+  background-repeat: no-repeat;  /* Optional: Controls how the image repeats */
+  background-position: center;  /* Optional: Controls image position */
+  background-size: cover; 
+  height: 250px;
+  width: 1500px;
+}
+.investment{
+  background-color: rgb(244, 244, 244);
+}
+
+#investment-structure-text{
+  font-family: roboto;
+  font-size: 26px;
+  padding-bottom: 20px;
+}
+#main-investment-cont{
+  padding-top: 100px;
+  padding-left: 10%;
+  gap: 10%;
+}
+#investment-structure{
+  gap: 25%;
+}
+#pure-text{
+  color: gray;
+  font-size: 17px;
+}
+#pure-result{
+  color: rgb(19, 112, 95);
+  font-size: 17px;
+  font-weight: bold;
+}
+.mpesa-text{
+  padding-top: 20px;
+}
+.txt2{
+  color: rgb(19,122,95);
+  font-family: roboto;
+  font-size: 18px;
+}
+.txt3{
+  color: gray;
+}
+#image2-part{
+  background-color: rgb(244, 244, 244);
+  width: 30%;
+  margin-top: 20px;
+  box-shadow: 2px 2px 2px 2px gray;
+  background-image: url(images/mpesa.png);
+  background-repeat: no-repeat;  /* Optional: Controls how the image repeats */
+  background-position: center;  /* Optional: Controls image position */
+  background-size: cover; 
+  border-radius: 15px;
+  height: 360px;
+  width: 360px;
+  margin-top: 50px;
+}
+#for-spacing{
+  gap: 5px;
+}
+.first-btn1{
+  background-color: rgb(232,232,232);
+  color:gray;
+  width: 300px;
+  text-align: center;
+ 
+  
+}
+.first-btn2{
+  background-color: rgb(232,232,232);
+  color:gray;
+  width: 300px;
+  text-align: center;
+  font-weight: bold;
+}
+.first-btn1 button:focus{
+  background-color: rgb(19, 112, 95);
+  color: white;
+}
+
+.first-btn2 button:focus{
+  background-color: rgb(19, 112, 95);
+  color: white;
+  border-bottom: 5px solid rgb(245, 138, 30);
+}
+
+ #cmmf-btn:hover{
+  background-color: rgb(19, 112, 95);
+  color: white;
+}
+
+#cmmf-btn{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: inherit;
+  font-weight: bold;
+}
+.cmmf-text1{
+  margin-top: 7%;
+  padding-left: 5%;
+}
+#cmmf-heading{
+  font-weight: bold;
+  color: gray;
+  font-size: 18px;
+}
+#cmmf-text-body{
+  margin-right: 30%;
+  color: gray;
+}
+#features-heading{
+  color: gray;
+  font-weight: bold;
+  font-size: 14px;
+}
+#features-checks{
+  font-family: sans-serif;
+}
+#features-checks{
+  gap: 10px;
+  font-size: 15px;
+}
+#check-icon{
+  color: rgb(245, 138, 30);
+}
+#download-part{
+  padding-top: 20px;
+  font-size: 18px;
+}
+.d-hl{
+  color: rgb(17,143,246);
+}
+
+#more-info-part{
+  padding-top: 20px;
+  font-size: 18px;
+  padding-right: 100px;
+  padding-bottom: 150px;
+}
+.cmmf-faqs{
+  background-color: white;
+}
+.main-faq{
+  padding-top: 80px;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 80px;
+}
+.faqs{
+  font-size: 40px;
+  font-weight: bold;
+}
+#text-flex{
+  display: flex;
+  justify-content: space-between;
+}
+.subscription{
+  background-color: rgb(232,232,232);
+}
+.sub-text{
+  text-align: center;
+  font-family: roboto;
+  padding-top:3% ;
+  font-size: 26px;
+}
+.reports-text{
+  text-align: center;
+  color: gray;
+}
+#email-input{
+  margin-left: 30%;
+}
+#em-in{
+  height: 100%;
+  width: 400px;
+}
+#sub-section{
+ display: flex;
+ justify-content: space-around;
+ width: 100%;
+ padding-bottom: 40px;
+}
+
+#sub-btn{
+  background-color: rgb(164, 214, 93);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 6%;
+  padding-right: 6%;
+  margin-right: 23%;
+  
+}
+#sign-up-btn{
+  color: white;
+  font-weight: bold;
+}
+.getting-started{
+background-image: linear-gradient(to right, rgb(3, 125, 103) ,rgb(164, 214, 93));
+}
+
+.simple{
+  text-align: center;
+  font-size: 26px;
+  font-family: roboto;
+  padding-top: 2%;
+  color: white;
+  padding-bottom: 1%;
+}
+#icons10{
+  color: white;
+}
+.det-icon{
+  font-family: roboto;
+}
+#started-icons{
+  font-size: 17px;
+  justify-content: space-evenly;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 3%;
+}
+.footer{
+  background-color: black;
+}
+.footer li{
+  list-style-type: none;
+  font-size: 12px;
+  color: rgb(180, 180, 180);
+}
+#talk-to-us{
+  color: white;
+}
+#ttu-header{
+  color: rgb(164, 214, 93);
+  font-weight: bold;
+  padding-left: 6%;
+  font-size: 14px;
+  
+}
+#main-footer{
+  padding-left: 7%;
+  padding-right: 3%;
+  padding-top: 3%;
+  justify-content: space-between;
+  
+}
+.latest-events{
+  color: rgb(180, 180, 180);
+  font-weight: bold;
+  font-size: 14px;
+}
+.wwu-section{
+  color: rgb(180, 180, 180);
+  font-weight: bold;
+  font-size: 14px;
+}
+#second-part-events{
+  gap: 50px;
+}
+.header-ke{
+  color: rgb(164, 214, 93);
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 5%;
+}
+#main2-footer{
+  padding-left: 7%;
+  justify-content: space-between;
+}
+.offices-det li{
+  color: white;
+  font-size: 13px;
+}
+#main2-footer{
+  padding-right: 10%;
+}
+
+#just-some-text{
+  background-color: rgb(58, 57, 57);
+  border-radius: 25px;
+  border: none;
+  letter-spacing: 3px;
+}
+.mail-part3{
+  width: 270px;
+}
+
+#arrow-icon{
+  background-color: rgb(171, 209, 106);
+  border-radius: 30px;
+  width: 20%;
+  height: 40px;
+  color: white;
+  text-align: center;
+  padding-top: 3%;
+  margin-left: 20%;
+}
+#right-icon{
+  font-size: 20px;
+  font-weight: bold;
+}
+.part1{
+  color: white;
+  font-size: 12px;
+}
+#privacy{
+  justify-content: space-between;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+.icon-fin{
+  color: rgb(68, 68, 68);
+  border: 1px solid rgb(68, 68, 68);
+  padding: 2%;
+  border-radius: 45px;
+  padding-left: 5.7%;
+  padding-right: 5.7%;
+  font-size: 25px;
+}
+.icon-fin1{
+  color: rgb(68, 68, 68);
+  border: 1px solid rgb(68, 68, 68);
+  padding: 2%;
+  border-radius: 45px;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 25px;
+}
+#icons-final{
+  justify-content: space-between;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+.part5{
+  color: rgb(68, 68, 68);
+  text-align: center;
+  margin-top: 1%;
+  font-size: 12px;
+  font-weight: bold;
+  padding-bottom: 3%;
+}
+
+
+
