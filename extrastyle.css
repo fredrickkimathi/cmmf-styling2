@@ -37,7 +37,7 @@
     order: 3;
   }
   #third-sect{
-    padding-top: 300px;
+    padding-top: 350px;
     
   }
   #amplify-text{
@@ -150,7 +150,7 @@
   background-color: black;
   color: white;
   font-size: 11px;
-  padding-left: 55%;
+  padding-left: 50%;
   font-weight: bold;
 }
 .top-text{
@@ -175,9 +175,9 @@
   padding-right: 10px;
 }
 .logo{
-  width: 270px;
+  width: 220px;
   padding-top: 20px;
-  padding-left: 100px;
+  padding-left: 72px;
 }
 #icon:hover{
   color: black;
@@ -187,14 +187,14 @@
   display: none;
 }
 #logo-part{
-  gap: 300px;
+  gap: 275px;
 }
 #logo-txt{
   gap: 50px;
-  font-size: 18px;
+  font-size: 13px;
 }
 #top-txt{
-  padding-top: 30px;
+  padding-top: 35px;
 }
 #down-icon{
   font-size: 10px;
@@ -205,6 +205,7 @@
   border-radius: 25px;
   margin-top: 25px;
   width: 150px;
+  
 }
 #lock-icon{
   padding-left: 10px;
@@ -242,21 +243,25 @@
 .investing-btn{
   color: white;
   border: 1px solid white;
-  padding: 15px;
+  padding: 12px 29px;
   border-radius: 25px;
   margin-top: 10px;
   margin-bottom: 100px;
   font-weight: bold;
+  font-size: 14px;
+}
+#fee-list li{
+color: gray;
 }
 #middle-content{
   background-color: white;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 2%;
+  padding-right: 1%;
   margin-left: 10%;
   margin-right: 10%;
   gap: 3%;
   position: absolute;
-  box-shadow:3px 3px 3px 3px gray;
+  box-shadow:3px 3px 3px 3px rgb(218, 217, 217);
   border-radius: 5px;
   height: 18%;
   
@@ -273,7 +278,7 @@
   height: 480px;
 }
 .cy-why{
-  font-size: 20px;
+  font-size: 16px;
   font-family: roboto;
   color: rgb(66, 110, 90);
   padding-top: 40px;
@@ -281,10 +286,12 @@
 #offer-part1{
   text-align: center;
   padding-top: 20px;
+  font-size: 14px;
 }
 #offer-part2{
   text-align: center;
   padding-top: 20px;
+  font-size: 14px;
 }
 #offer-part2:hover{
   margin-top: -10px;
@@ -358,13 +365,13 @@
   color: gray;
 }
 .third-section{
-  margin-top: 250px;
+  margin-top: 200px;
   margin-left: 100px;
   margin-right: 100px;
   margin-bottom: 100px;
 }
 #amplify-text{
-  font-size: 30px;
+  font-size: 24px;
   font-weight: bold;
   padding-top: 6%;
 }
@@ -372,15 +379,16 @@
   gap: 18%;
 }
 #cmmf-img{
-  width: 90%;
+  
   box-shadow: 2px 2px 2px 2px gray;
-  border-radius: 10px;
+  border-radius: 7px;
   background-image: url(images/Screen\ Shot\ 2024-04-28\ at\ 12.01.48\ PM.png);
   background-repeat: no-repeat;  /* Optional: Controls how the image repeats */
   background-position: center;  /* Optional: Controls image position */
   background-size: cover; 
-  height: 250px;
-  width: 1500px;
+  height: 200px;
+  width: 1100px;
+  margin-top: 50px;
 }
 .investment{
   background-color: rgb(244, 244, 244);
@@ -388,11 +396,11 @@
 
 #investment-structure-text{
   font-family: roboto;
-  font-size: 26px;
+  font-size: 24px;
   padding-bottom: 20px;
 }
 #main-investment-cont{
-  padding-top: 100px;
+  padding-top: 70px;
   padding-left: 10%;
   gap: 10%;
 }
@@ -405,16 +413,16 @@
 }
 #pure-result{
   color: rgb(19, 112, 95);
-  font-size: 17px;
-  font-weight: bold;
+  list-style: none;
+  font-weight: 500;
 }
 .mpesa-text{
-  padding-top: 20px;
+  padding-top: 10px;
 }
 .txt2{
   color: rgb(19,122,95);
   font-family: roboto;
-  font-size: 18px;
+  font-size: 15px;
 }
 .txt3{
   color: gray;
@@ -436,10 +444,14 @@
 #for-spacing{
   gap: 5px;
 }
+#button-sections{
+  padding-top: 20px;
+  padding-left: 20px;
+}
 .first-btn1{
   background-color: rgb(232,232,232);
   color:gray;
-  width: 300px;
+  width: 250px;
   text-align: center;
  
   
@@ -447,7 +459,7 @@
 .first-btn2{
   background-color: rgb(232,232,232);
   color:gray;
-  width: 300px;
+  width: 250px;
   text-align: center;
   font-weight: bold;
 }
@@ -474,13 +486,14 @@
   font-weight: bold;
 }
 .cmmf-text1{
-  margin-top: 7%;
+  margin-top: 3%;
   padding-left: 5%;
+  
 }
 #cmmf-heading{
   font-weight: bold;
   color: gray;
-  font-size: 18px;
+  font-size: 16px;
 }
 #cmmf-text-body{
   margin-right: 30%;
@@ -496,24 +509,27 @@
 }
 #features-checks{
   gap: 10px;
-  font-size: 15px;
+  font-size: 14px;
 }
 #check-icon{
   color: rgb(245, 138, 30);
 }
 #download-part{
   padding-top: 20px;
-  font-size: 18px;
+  font-size: 17px;
+  color: gray;
 }
 .d-hl{
   color: rgb(17,143,246);
+  font-size: 16px;
 }
 
 #more-info-part{
   padding-top: 20px;
-  font-size: 18px;
+  font-size: 17px;
   padding-right: 100px;
   padding-bottom: 150px;
+  color: gray;
 }
 .cmmf-faqs{
   background-color: white;
@@ -525,7 +541,7 @@
   padding-bottom: 80px;
 }
 .faqs{
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
 }
 #text-flex{
@@ -539,33 +555,34 @@
   text-align: center;
   font-family: roboto;
   padding-top:3% ;
-  font-size: 26px;
+  font-size: 23px;
 }
 .reports-text{
   text-align: center;
   color: gray;
+  padding-bottom: 20px;
 }
 #email-input{
-  margin-left: 30%;
+  margin-left: 20%;
 }
 #em-in{
-  height: 100%;
-  width: 400px;
+  height: 80%;
+  width: 500px;
 }
 #sub-section{
  display: flex;
  justify-content: space-around;
  width: 100%;
- padding-bottom: 40px;
+ padding-bottom: 20px;
 }
 
 #sub-btn{
   background-color: rgb(164, 214, 93);
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
   padding-left: 6%;
   padding-right: 6%;
-  margin-right: 23%;
+  margin-right: 20%;
+  margin-bottom: 0.9%;
   
 }
 #sign-up-btn{
@@ -576,9 +593,14 @@
 background-image: linear-gradient(to right, rgb(3, 125, 103) ,rgb(164, 214, 93));
 }
 
+.invest-text li{
+  list-style: none;
+  margin-left: -20px;
+}
+
 .simple{
   text-align: center;
-  font-size: 26px;
+  font-size: 22px;
   font-family: roboto;
   padding-top: 2%;
   color: white;
@@ -591,10 +613,10 @@ background-image: linear-gradient(to right, rgb(3, 125, 103) ,rgb(164, 214, 93))
   font-family: roboto;
 }
 #started-icons{
-  font-size: 17px;
+  font-size: 15px;
   justify-content: space-evenly;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 12%;
+  padding-right: 12%;
   padding-bottom: 3%;
 }
 .footer{
