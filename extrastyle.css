@@ -452,9 +452,10 @@ color: gray;
   background-color: rgb(232,232,232);
   color:gray;
   width: 250px;
-  text-align: center;
- 
-  
+  text-align: center;   
+}
+#hide-ans{
+  display: none;
 }
 .first-btn2{
   background-color: rgb(232,232,232);
