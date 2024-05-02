@@ -153,7 +153,7 @@
   background-color: black;
   color: white;
   font-size: 11px;
-  padding-left: 50%;
+  padding-left: 55%;
   font-weight: bold;
 }
 .top-text{
@@ -161,6 +161,11 @@
   font-size: 9px;
   
 }
+
+.rotate {
+  transform: rotate(180deg);
+}
+
 
 #waylf-section{
   background-color: rgb(114, 138, 72);
