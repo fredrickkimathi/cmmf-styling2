@@ -16,7 +16,6 @@ chevronIcons.forEach((icon, index) => {
   });
 });
 
-// Your existing code
 const icon = document.getElementById("icon");
 const searchInput = document.getElementById("search-input");
 const lookingForText = document.getElementById("looking-for");

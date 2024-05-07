@@ -21,9 +21,11 @@
   #middle-content{
     flex-direction: column;
     text-align: center;
-    position: fixed;
     margin-top: 100px;
-    padding-right: 30%;
+    padding-left: 20%;
+    margin-left: 20%;
+    position: fixed;
+   
   }
   .cmmf-part{
     text-align: center;
@@ -31,6 +33,10 @@
   }
   .middle-section{
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
   }
   .include-cmmf{
     order: 2;
@@ -63,6 +69,7 @@
   #middle-content{
     box-shadow: none;
     padding-top: 4%;
+    /* position: none; */
   }
   #offer-part1:focus{
     background-color: rgb(245, 138, 30);
@@ -129,15 +136,15 @@
   #mail-part2{
     order: 2;
   }
-  #mail-part2{
-    flex-direction: column;
-  }
-  #arrow-icon{
-    display: none;
-  }
+  
   #privacy{
     display: none;
   }
+  #image2-part{
+    width: 60%;
+    justify-self: center;
+  }
+  
   
 }
 
@@ -212,7 +219,7 @@
   border: 1px solid black;
   padding: 10px;
   border-radius: 25px;
-  margin-top: 25px;
+  margin-top: 30px;
   width: 150px;
   
 }
@@ -266,7 +273,7 @@ color: gray;
   background-color: white;
   padding-left: 2%;
   padding-right: 1%;
-  margin-left: 10%;
+  margin-left: 13%;
   margin-right: 10%;
   gap: 3%;
   position: absolute;
@@ -318,12 +325,9 @@ color: gray;
 }
 #offer-part3{
   text-align: center;
-  padding-top: 20px;
-  margin-top: -10px;
-  margin-bottom: -10px;
-  background-color: rgb(245, 138, 30);
-  color: white;
-  border-radius: 12px;
+  padding-top: 5px;
+  font-size: 14px;
+
   
 }
 #offer-part3:hover {
@@ -334,7 +338,8 @@ color: gray;
   border-radius: 12px;
 }
 #guess-btn{
-  width: inherit;
+  width: 100%;
+  height: 100%;
   
 }
 #offer-part2:focus{
@@ -344,9 +349,9 @@ color: gray;
   color: white;
   border-radius: 12px;
 }
-#guess-btn:focus{
-  margin-top: -30px;
-  margin-bottom: -30px;
+#offer-part1:focus{
+  width: 100%;
+  height: 100%;
   background-color: rgb(245, 138, 30);
   color: white;
   border-radius: 12px;  
@@ -437,17 +442,11 @@ color: gray;
   color: gray;
 }
 #image2-part{
-  background-color: rgb(244, 244, 244);
-  width: 30%;
   margin-top: 20px;
   box-shadow: 2px 2px 2px 2px gray;
-  background-image: url(images/mpesa.png);
-  background-repeat: no-repeat;  /* Optional: Controls how the image repeats */
-  background-position: center;  /* Optional: Controls image position */
-  background-size: cover; 
   border-radius: 15px;
   height: 360px;
-  width: 360px;
+  width: 1560px;
   margin-top: 50px;
 }
 #for-spacing{
